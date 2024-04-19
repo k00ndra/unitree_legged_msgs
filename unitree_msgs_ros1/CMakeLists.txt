@@ -17,7 +17,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 # Message file
 add_message_files(
-  FOLDER
+  DIRECTORY
     msg
   FILES
     MotorCmd.msg
@@ -33,7 +33,11 @@ add_message_files(
     HighState.msg
 )
 
-generate_messages()
+generate_messages(
+  DEPENDENCIES
+    std_msgs
+    geometry_msgs
+)
 
 catkin_package(
   CATKIN_DEPENDS
