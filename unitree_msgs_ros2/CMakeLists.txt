@@ -14,6 +14,16 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/BmsCmd.msg"
+  "msg/BmsState.msg"
+  "msg/Cartesian.msg"
+  "msg/HighCmd.msg"
+  "msg/HighState.msg"
+  "msg/IMU.msg"
+  "msg/LED.msg"
+  "msg/LowCmd.msg"
+  "msg/LowState.msg"
+  "msg/MotorCmd.msg"
   "msg/MotorState.msg"
 )
 

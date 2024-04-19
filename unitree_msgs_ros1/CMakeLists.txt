@@ -17,7 +17,17 @@ find_package(catkin REQUIRED COMPONENTS
 
 # Message file
 add_message_files(
-  msg/MotorCmd.msg
+  MotorCmd.msg
+  MotorState.msg
+  BmsCmd.msg
+  BmsState.msg
+  Cartesian.msg
+  IMU.msg
+  LED.msg
+  LowCmd.msg
+  LowState.msg
+  HighCmd.msg
+  HighState.msg
 )
 
 generate_messages()
