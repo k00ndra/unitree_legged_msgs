@@ -1,7 +1,7 @@
 -
-  ros1_package_name: 'unitree_msgs_ros1'
+  ros1_package_name: 'unitree_msgs'
   ros1_message_name: 'HighCmd'
-  ros2_package_name: 'unitree_msgs_ros2'
+  ros2_package_name: 'unitree_msgs'
   ros2_message_name: 'HighCmd'
   fields_1_to_2:
     head: 'head'
