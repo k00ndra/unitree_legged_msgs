@@ -19,7 +19,7 @@
   <member_of_group>rosidl_interface_packages</member_of_group>
 
   <export>
-    <!--<ros1_bridge mapping_rules="my_mapping_rule.yaml"/> -->
+    <ros1_bridge mapping_rules="my_mapping_rule.yaml"/>
     <build_type>ament_cmake</build_type>
   </export>
 </package>
