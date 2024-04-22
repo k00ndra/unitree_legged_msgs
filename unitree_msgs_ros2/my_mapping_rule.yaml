@@ -4,5 +4,6 @@
   ros2_package_name: 'unitree_legged_msgs'
   ros2_message_name: 'BmCmd'
   fields_1_to_2:
-    Off: 'off'
-    Reserve: 'reserve'
+    SOC: 'soc'
+    BQ_NTC: 'bq_ntc'
+    MCU_NTC: 'mcu_ntx'
