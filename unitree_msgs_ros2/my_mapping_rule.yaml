@@ -91,4 +91,64 @@
     reserve: 'reserve'
     crc: 'crc'
 
-  
+-
+  ros1_package_name: 'unitree_msgs'
+  ros1_message_name: 'LowState'
+  ros2_package_name: 'unitree_msgs'
+  ros2_message_name: 'LowState'
+  fields_1_to_2:
+    head: 'head'
+    levelFlag: 'level_flag'
+    frameReserve: 'frame_reserve'
+    SN: 'sn'
+    version: 'version'
+    bandWidth: 'band_width'
+    imu: 'imu'
+    motorState: 'motor_state'
+    bms: 'bms'
+    footForce: 'foot_force'
+    footForceEst: 'foot_force_est'
+    tick: 'tick'
+    wirelessRemote: 'wireless_remote'
+    reserve: 'reserve'
+    crc: 'crc'
+    eeForceRaw: 'ee_force_raw'
+    eeForce: 'ee_force'
+    position: 'position'
+    velocity: 'velocity'
+    velocity_w: 'velocity_w'
+
+-
+  ros1_package_name: 'unitree_msgs'
+  ros1_message_name: 'MotorCmd'
+  ros2_package_name: 'unitree_msgs'
+  ros2_message_name: 'MotorCmd'
+  fields_1_to_2:
+    mode: 'mode'
+    q: 'q'
+    dq: 'dq'
+    tau: 'tau'
+    Kp: 'kp' 
+    Kd: 'kd'
+    reserve: 'reserve'
+
+-
+  ros1_package_name: 'unitree_msgs'
+  ros1_message_name: 'MotorState'
+  ros2_package_name: 'unitree_msgs'
+  ros2_message_name: 'MotorState'
+  fields_1_to_2:
+    mode: 'mode'
+    q: 'q'
+    dq: 'dq'
+    ddq: 'ddq'
+    tauEst: 'tau_est'
+    q_raw: 'q_raw'
+    dq_raw: 'dq_raw'
+    ddq_raw: 'ddq_raw'
+    temperature: 'temperature'
+    reserve: 'reserve'
+
+
+
+
