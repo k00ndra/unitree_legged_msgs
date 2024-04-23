@@ -1,7 +1,7 @@
 -
-  ros1_package_name: 'unitree_msgs'
+  ros1_package_name: 'unitree_legged_msgs'
   ros1_message_name: 'HighCmd'
-  ros2_package_name: 'unitree_msgs'
+  ros2_package_name: 'unitree_legged_msgs'
   ros2_message_name: 'HighCmd'
   fields_1_to_2:
     head: 'head'
@@ -26,9 +26,9 @@
     crc: 'crc'
 
 -
-  ros1_package_name: 'unitree_msgs'
+  ros1_package_name: 'unitree_legged_msgs'
   ros1_message_name: 'BmsState'
-  ros2_package_name: 'unitree_msgs'
+  ros2_package_name: 'unitree_legged_msgs'
   ros2_message_name: 'BmsState'
   fields_1_to_2:
     version_h: 'version_h'
@@ -42,9 +42,9 @@
     cell_vol: 'cell_vol'
 
 -
-  ros1_package_name: 'unitree_msgs'
+  ros1_package_name: 'unitree_legged_msgs'
   ros1_message_name: 'HighState'
-  ros2_package_name: 'unitree_msgs'
+  ros2_package_name: 'unitree_legged_msgs'
   ros2_message_name: 'HighState'
   fields_1_to_2:
     head: 'head'
@@ -74,9 +74,9 @@
     crc: 'crc'
 
 -
-  ros1_package_name: 'unitree_msgs'
+  ros1_package_name: 'unitree_legged_msgs'
   ros1_message_name: 'LowCmd'
-  ros2_package_name: 'unitree_msgs'
+  ros2_package_name: 'unitree_legged_msgs'
   ros2_message_name: 'LowCmd'
   fields_1_to_2:
     head: 'head'
@@ -92,9 +92,9 @@
     crc: 'crc'
 
 -
-  ros1_package_name: 'unitree_msgs'
+  ros1_package_name: 'unitree_legged_msgs'
   ros1_message_name: 'LowState'
-  ros2_package_name: 'unitree_msgs'
+  ros2_package_name: 'unitree_legged_msgs'
   ros2_message_name: 'LowState'
   fields_1_to_2:
     head: 'head'
@@ -119,9 +119,9 @@
     velocity_w: 'velocity_w'
 
 -
-  ros1_package_name: 'unitree_msgs'
+  ros1_package_name: 'unitree_legged_msgs'
   ros1_message_name: 'MotorCmd'
-  ros2_package_name: 'unitree_msgs'
+  ros2_package_name: 'unitree_legged_msgs'
   ros2_message_name: 'MotorCmd'
   fields_1_to_2:
     mode: 'mode'
@@ -133,9 +133,9 @@
     reserve: 'reserve'
 
 -
-  ros1_package_name: 'unitree_msgs'
+  ros1_package_name: 'unitree_legged_msgs'
   ros1_message_name: 'MotorState'
-  ros2_package_name: 'unitree_msgs'
+  ros2_package_name: 'unitree_legged_msgs'
   ros2_message_name: 'MotorState'
   fields_1_to_2:
     mode: 'mode'
